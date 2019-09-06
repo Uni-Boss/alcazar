@@ -11,7 +11,7 @@ from .responses import Response
 from .templates import get_templates_env
 from .utils import empty_wsgi_app, cut_static_root, request_for_static
 
-
+# Here is my first commit.
 class Alcazar:
     def __init__(self, templates_dir="templates", static_dir="static", debug=True):
         self.templates = get_templates_env(os.path.abspath(templates_dir))
